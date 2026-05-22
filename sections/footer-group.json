@@ -1,0 +1,171 @@
+{
+  "name": "Footer Group",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {},
+      "blocks": {
+        "footer__information-group-1": {
+          "type": "$information-group",
+          "blocks": {
+            "footer__logo-list": {
+              "type": "$logo-list",
+              "blocks": {
+                "footer__logo-list-item-1": {
+                  "type": "$logo-list-item",
+                  "blocks": {
+                    "icon-1": {
+                      "type": "icon/icon",
+                      "settings": {
+                        "icon": "van",
+                        "desktop_width": 24,
+                        "mobile_width": 24,
+                        "spacing": {
+                          "padding-block-end": "0px",
+                          "padding-block-start": "0px"
+                        }
+                      }
+                    },
+                    "text-1": {
+                      "type": "$icon-text",
+                      "settings": {
+                        "text": "Fast and free delivery"
+                      }
+                    }
+                  },
+                  "block_order": ["icon-1", "text-1"]
+                },
+                "footer__logo-list-item-2": {
+                  "type": "$logo-list-item",
+                  "blocks": {
+                    "icon-2": {
+                      "type": "icon/icon",
+                      "settings": {
+                        "icon": "checkbox",
+                        "desktop_width": 24,
+                        "mobile_width": 24,
+                        "spacing": {
+                          "padding-block-end": "0px",
+                          "padding-block-start": "0px"
+                        }
+                      }
+                    },
+                    "text-2": {
+                      "type": "$icon-text",
+                      "settings": {
+                        "text": "Lifetime customer support"
+                      }
+                    }
+                  },
+                  "block_order": ["icon-2", "text-2"]
+                },
+                "footer__logo-list-item-3": {
+                  "type": "$logo-list-item",
+                  "blocks": {
+                    "icon-3": {
+                      "type": "icon/icon",
+                      "settings": {
+                        "icon": "package",
+                        "desktop_width": 24,
+                        "mobile_width": 24,
+                        "spacing": {
+                          "padding-block-end": "0px",
+                          "padding-block-start": "0px"
+                        }
+                      }
+                    },
+                    "text-3": {
+                      "type": "$icon-text",
+                      "settings": {
+                        "text": "30 day refund guarantee"
+                      }
+                    }
+                  },
+                  "block_order": ["icon-3", "text-3"]
+                }
+              },
+              "block_order": ["footer__logo-list-item-1", "footer__logo-list-item-2", "footer__logo-list-item-3"]
+            },
+            "footer__navigation-1": {
+              "type": "$navigation"
+            },
+            "footer__navigation-2": {
+              "type": "$navigation"
+            },
+            "footer__custom-text": {
+              "type": "$custom-text"
+            }
+          },
+          "block_order": ["footer__logo-list", "footer__navigation-1", "footer__navigation-2", "footer__custom-text"]
+        },
+        "footer__contact-group": {
+          "type": "$contact-group",
+          "blocks": {
+            "footer__social-media": {
+              "type": "$social-media"
+            },
+            "footer__email-subscribe": {
+              "type": "$email-subscribe",
+              "blocks": {
+                "email-subscription": {
+                  "type": "email-subscription",
+                  "settings": {
+                    "size": {
+                      "width": "100%"
+                    }
+                  }
+                }
+              },
+              "block_order": ["email-subscription"]
+            }
+          },
+          "block_order": ["footer__email-subscribe", "footer__social-media"]
+        },
+        "footer__additional-group": {
+          "type": "$additional-group",
+          "blocks": {
+            "footer__market-selector": {
+              "type": "$market-selector"
+            },
+            "footer__payment-icons": {
+              "type": "$payment-icons"
+            }
+          },
+          "block_order": ["footer__market-selector", "footer__payment-icons"]
+        },
+        "footer__information-group-2": {
+          "type": "$information-group",
+          "settings": {
+            "spacing": {
+              "padding-block-end": "0px",
+              "padding-block-start": "0px"
+            }
+          },
+          "blocks": {
+            "footer__copyright": {
+              "type": "$copyright",
+              "blocks": {
+                "footer__copyright-menu": {
+                  "type": "$copyright-menu"
+                },
+                "footer__copyright-text": {
+                  "type": "$copyright-text"
+                }
+              },
+              "block_order": ["footer__copyright-menu", "footer__copyright-text"]
+            }
+          },
+          "block_order": ["footer__copyright"]
+        }
+      },
+      "block_order": [
+        "footer__information-group-1",
+        "footer__contact-group",
+        "footer__additional-group",
+        "footer__information-group-2"
+      ]
+    }
+  },
+  "order": ["footer"]
+}

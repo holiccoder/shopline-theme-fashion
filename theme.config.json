@@ -1,0 +1,72 @@
+{
+  "current": "Default",
+  "presets": {
+    "Default": {
+      "theme": {
+        "color_schemes": {
+          "scheme-1": {
+            "settings": {
+              "color_background": "#FFFFFF",
+              "color_text": "#29252C",
+              "color_light_text": "#949494",
+              "color_entry_line": "#DDDDDD",
+              "color_button_background": "#000000",
+              "color_button_text": "#FFFFFF",
+              "color_button_secondary_background": "#FFFFFF",
+              "color_button_secondary_text": "#000000",
+              "color_button_secondary_border": "#000000",
+              "color_button_text_link": "#3D3819",
+              "color_media_background": "#F3F3F3"
+            }
+          },
+          "scheme-2": {
+            "settings": {
+              "color_background": "#F3F7FA",
+              "color_text": "#000000",
+              "color_light_text": "#949494",
+              "color_entry_line": "#DDDDDD",
+              "color_button_background": "#000000",
+              "color_button_text": "#F3F7FA",
+              "color_button_secondary_background": "#F3F7FA",
+              "color_button_secondary_text": "#000000",
+              "color_button_secondary_border": "#000000",
+              "color_button_text_link": "#000000",
+              "color_media_background": "#F3F3F3"
+            }
+          },
+          "scheme-3": {
+            "settings": {
+              "color_background": "#000000",
+              "color_text": "#FFFFFF",
+              "color_light_text": "#FAFBFD",
+              "color_entry_line": "#FAFBFD",
+              "color_button_background": "#FFFFFF",
+              "color_button_text": "#1E1E1E",
+              "color_button_secondary_background": "#FFFFFF",
+              "color_button_secondary_text": "#000000",
+              "color_button_secondary_border": "#000000",
+              "color_button_text_link": "#FFFFFF",
+              "color_media_background": "#1A1A1A"
+            }
+          },
+          "scheme-4": {
+            "settings": {
+              "color_background": "#FFFFFF",
+              "color_text": "#000000",
+              "color_light_text": "#686868",
+              "color_entry_line": "#DDDDDD",
+              "color_button_background": "#FFFFFF",
+              "color_button_text": "#1E1E1E",
+              "color_button_secondary_background": "FFFFFF",
+              "color_button_secondary_text": "#000000",
+              "color_button_secondary_border": "#000000",
+              "color_button_text_link": "#FAFBFD",
+              "color_media_background": "#F3F3F3"
+            }
+          }
+        }
+      },
+      "sections": {}
+    }
+  }
+}

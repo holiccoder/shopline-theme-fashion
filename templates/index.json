@@ -1,0 +1,1496 @@
+{
+  "sections": {
+    "text-columns-with-image": {
+      "type": "text-columns-with-image",
+      "settings": {},
+      "blocks": {
+        "text-columns-with-image__heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Text columns with images",
+            "text_align": "left"
+          }
+        },
+        "text-columns-with-image__card-group": {
+          "type": "$card-group",
+          "blocks": {
+            "text-columns-with-image__card": {
+              "type": "$card",
+              "settings": {},
+              "blocks": {
+                "text-columns-with-image__card1__image": {
+                  "type": "image/image"
+                },
+                "text-columns-with-image__card1__title": {
+                  "type": "$title"
+                },
+                "text-columns-with-image__card1__text": {
+                  "type": "$text"
+                }
+              },
+              "block_order": [
+                "text-columns-with-image__card1__image",
+                "text-columns-with-image__card1__title",
+                "text-columns-with-image__card1__text"
+              ]
+            },
+            "text-columns-with-image__card2": {
+              "type": "$card",
+              "settings": {},
+              "blocks": {
+                "text-columns-with-image__card2__image": {
+                  "type": "image/image"
+                },
+                "text-columns-with-image__card2__title": {
+                  "type": "$title"
+                },
+                "text-columns-with-image__card2__text": {
+                  "type": "$text"
+                }
+              },
+              "block_order": [
+                "text-columns-with-image__card2__image",
+                "text-columns-with-image__card2__title",
+                "text-columns-with-image__card2__text"
+              ]
+            },
+            "text-columns-with-image__card3": {
+              "type": "$card",
+              "settings": {},
+              "blocks": {
+                "text-columns-with-image__card3__image": {
+                  "type": "image/image"
+                },
+                "text-columns-with-image__card3__title": {
+                  "type": "$title"
+                },
+                "text-columns-with-image__card3__text": {
+                  "type": "$text"
+                }
+              },
+              "block_order": [
+                "text-columns-with-image__card3__image",
+                "text-columns-with-image__card3__title",
+                "text-columns-with-image__card3__text"
+              ]
+            }
+          },
+          "block_order": [
+            "text-columns-with-image__card",
+            "text-columns-with-image__card2",
+            "text-columns-with-image__card3"
+          ]
+        },
+        "text-columns-with-image__view-more": {
+          "type": "$view-more"
+        }
+      },
+      "block_order": [
+        "text-columns-with-image__heading",
+        "text-columns-with-image__card-group",
+        "text-columns-with-image__view-more"
+      ]
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {},
+      "blocks": {
+        "image-with-text__image": {
+          "type": "image/image"
+        },
+        "image-with-text__group": {
+          "type": "$group",
+          "settings": {},
+          "blocks": {
+            "image-with-text__group__subheading": {
+              "type": "subheading",
+              "settings": {
+                "text": "Subtitle",
+                "typography": "body3"
+              }
+            },
+            "image-with-text__group__heading": {
+              "type": "heading",
+              "settings": {
+                "text": "Image with text",
+                "typography": "title3"
+              }
+            },
+            "image-with-text__group__rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "content": "Pair large text with a full-width image to draw attention to an important detail of your brand or product line.",
+                "text_align": "left",
+                "typography": "body3"
+              }
+            },
+            "image-with-text__group__button": {
+              "type": "button",
+              "settings": {
+                "text": "Optional button",
+                "spacing": {
+                  "padding-block-start": "12px",
+                  "padding-block-end": "12px",
+                  "padding-inline-start": "20px",
+                  "padding-inline-end": "20px"
+                },
+                "typography": "body2"
+              }
+            }
+          },
+          "block_order": [
+            "image-with-text__group__subheading",
+            "image-with-text__group__heading",
+            "image-with-text__group__rich-text",
+            "image-with-text__group__button"
+          ]
+        }
+      },
+      "block_order": ["image-with-text__image", "image-with-text__group"]
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "settings": {},
+      "blocks": {
+        "slideshow__image": {
+          "type": "$image",
+          "settings": {},
+          "blocks": {
+            "slideshow__image__group": {
+              "type": "$group",
+              "settings": {},
+              "blocks": {
+                "slideshow__image__group__title": {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Two Line\nTitle Slide"
+                  }
+                },
+                "slideshow__image__group__subtitle": {
+                  "type": "text",
+                  "settings": {
+                    "text": "Subtitle",
+                    "typography": "body3"
+                  }
+                },
+                "slideshow__image__group__description": {
+                  "type": "text",
+                  "settings": {
+                    "text": "And optional subtext",
+                    "typography": "body3"
+                  }
+                },
+                "slideshow__image__group__button-group": {
+                  "type": "button-group",
+                  "settings": {},
+                  "blocks": {
+                    "slideshow__image__group__button-group__button1": {
+                      "type": "button",
+                      "settings": {
+                        "text": "Shop this",
+                        "style": "secondary",
+                        "typography": "body2"
+                      }
+                    },
+                    "slideshow__image__group__button-group__button2": {
+                      "type": "button",
+                      "settings": {
+                        "text": "Shop all",
+                        "style": "primary",
+                        "typography": "body3"
+                      }
+                    }
+                  },
+                  "block_order": [
+                    "slideshow__image__group__button-group__button1",
+                    "slideshow__image__group__button-group__button2"
+                  ]
+                }
+              },
+              "block_order": [
+                "slideshow__image__group__subtitle",
+                "slideshow__image__group__title",
+                "slideshow__image__group__description",
+                "slideshow__image__group__button-group"
+              ]
+            }
+          },
+          "block_order": ["slideshow__image__group"]
+        }
+      },
+      "block_order": ["slideshow__image"]
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "blocks": {
+        "featured-collection__heading": {
+          "type": "heading"
+        },
+        "featured-collection__tabs": {
+          "type": "$tabs",
+          "blocks": {
+            "featured-collection__tabs__collection-1": {
+              "type": "$collection",
+              "blocks": {
+                "featured-collection__tabs__collection-1__card": {
+                  "type": "product-card/card",
+                  "blocks": {
+                    "featured-collection__tabs__collection-1__card__image": {
+                      "type": "product-image",
+                      "blocks": {
+                        "featured-collection__tabs__collection-1__card__image__layer-1": {
+                          "type": "product-card/_layer",
+                          "blocks": {
+                            "featured-collection__tabs__collection-1__card__image__layer-1__discount-tag": {
+                              "type": "product-card/_discount-tag"
+                            }
+                          },
+                          "block_order": ["featured-collection__tabs__collection-1__card__image__layer-1__discount-tag"]
+                        },
+                        "featured-collection__tabs__collection-1__card__image__layer-2": {
+                          "type": "product-card/_layer",
+                          "settings": {
+                            "layout": {
+                              "justify-content": "flex-end"
+                            }
+                          },
+                          "blocks": {
+                            "featured-collection__tabs__collection-1__card__image__layer-2__quick-add": {
+                              "type": "product-card/_quick-add"
+                            }
+                          },
+                          "block_order": ["featured-collection__tabs__collection-1__card__image__layer-2__quick-add"]
+                        }
+                      },
+                      "block_order": [
+                        "featured-collection__tabs__collection-1__card__image__layer-1",
+                        "featured-collection__tabs__collection-1__card__image__layer-2"
+                      ]
+                    },
+                    "featured-collection__tabs__collection-1__card__info": {
+                      "type": "product-card/_info",
+                      "blocks": {
+                        "featured-collection__tabs__collection-1__card__info__title": {
+                          "type": "product-title"
+                        },
+                        "featured-collection__tabs__collection-1__card__info__price": {
+                          "type": "product-price"
+                        },
+                        "featured-collection__tabs__collection-1__card__info__description": {
+                          "type": "product-card/_description"
+                        },
+                        "featured-collection__tabs__collection-1__card__info__buy-button": {
+                          "type": "product-buy-button"
+                        }
+                      },
+                      "block_order": [
+                        "featured-collection__tabs__collection-1__card__info__title",
+                        "featured-collection__tabs__collection-1__card__info__price",
+                        "featured-collection__tabs__collection-1__card__info__description",
+                        "featured-collection__tabs__collection-1__card__info__buy-button"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "featured-collection__tabs__collection-1__card__image",
+                    "featured-collection__tabs__collection-1__card__info"
+                  ]
+                }
+              },
+              "block_order": ["featured-collection__tabs__collection-1__card"]
+            },
+            "featured-collection__tabs__collection-2": {
+              "type": "$collection",
+              "blocks": {
+                "featured-collection__tabs__collection-2__card": {
+                  "type": "product-card/card",
+                  "blocks": {
+                    "featured-collection__tabs__collection-2__card__image": {
+                      "type": "product-image",
+                      "blocks": {
+                        "featured-collection__tabs__collection-2__card__image__layer-1": {
+                          "type": "product-card/_layer",
+                          "blocks": {
+                            "featured-collection__tabs__collection-2__card__image__layer-1__discount-tag": {
+                              "type": "product-card/_discount-tag"
+                            }
+                          },
+                          "block_order": ["featured-collection__tabs__collection-2__card__image__layer-1__discount-tag"]
+                        },
+                        "featured-collection__tabs__collection-2__card__image__layer-2": {
+                          "type": "product-card/_layer",
+                          "settings": {
+                            "layout": {
+                              "justify-content": "flex-end"
+                            }
+                          },
+                          "blocks": {
+                            "featured-collection__tabs__collection-2__card__image__layer-2__quick-add": {
+                              "type": "product-card/_quick-add"
+                            }
+                          },
+                          "block_order": ["featured-collection__tabs__collection-2__card__image__layer-2__quick-add"]
+                        }
+                      },
+                      "block_order": [
+                        "featured-collection__tabs__collection-2__card__image__layer-1",
+                        "featured-collection__tabs__collection-2__card__image__layer-2"
+                      ]
+                    },
+                    "featured-collection__tabs__collection-2__card__info": {
+                      "type": "product-card/_info",
+                      "blocks": {
+                        "featured-collection__tabs__collection-2__card__info__title": {
+                          "type": "product-title"
+                        },
+                        "featured-collection__tabs__collection-2__card__info__price": {
+                          "type": "product-price"
+                        },
+                        "featured-collection__tabs__collection-2__card__info__description": {
+                          "type": "product-card/_description"
+                        },
+                        "featured-collection__tabs__collection-2__card__info__buy-button": {
+                          "type": "product-buy-button"
+                        }
+                      },
+                      "block_order": [
+                        "featured-collection__tabs__collection-2__card__info__title",
+                        "featured-collection__tabs__collection-2__card__info__price",
+                        "featured-collection__tabs__collection-2__card__info__description",
+                        "featured-collection__tabs__collection-2__card__info__buy-button"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "featured-collection__tabs__collection-2__card__image",
+                    "featured-collection__tabs__collection-2__card__info"
+                  ]
+                }
+              },
+              "block_order": ["featured-collection__tabs__collection-2__card"]
+            },
+            "featured-collection__tabs__collection-3": {
+              "type": "$collection",
+              "blocks": {
+                "featured-collection__tabs__collection-3__card": {
+                  "type": "product-card/card",
+                  "blocks": {
+                    "featured-collection__tabs__collection-3__card__image": {
+                      "type": "product-image",
+                      "blocks": {
+                        "featured-collection__tabs__collection-3__card__image__layer-1": {
+                          "type": "product-card/_layer",
+                          "blocks": {
+                            "featured-collection__tabs__collection-3__card__image__layer-1__discount-tag": {
+                              "type": "product-card/_discount-tag"
+                            }
+                          },
+                          "block_order": ["featured-collection__tabs__collection-3__card__image__layer-1__discount-tag"]
+                        },
+                        "featured-collection__tabs__collection-3__card__image__layer-2": {
+                          "type": "product-card/_layer",
+                          "settings": {
+                            "layout": {
+                              "justify-content": "flex-end"
+                            }
+                          },
+                          "blocks": {
+                            "featured-collection__tabs__collection-3__card__image__layer-2__quick-add": {
+                              "type": "product-card/_quick-add"
+                            }
+                          },
+                          "block_order": ["featured-collection__tabs__collection-3__card__image__layer-2__quick-add"]
+                        }
+                      },
+                      "block_order": [
+                        "featured-collection__tabs__collection-3__card__image__layer-1",
+                        "featured-collection__tabs__collection-3__card__image__layer-2"
+                      ]
+                    },
+                    "featured-collection__tabs__collection-3__card__info": {
+                      "type": "product-card/_info",
+                      "blocks": {
+                        "featured-collection__tabs__collection-3__card__info__title": {
+                          "type": "product-title"
+                        },
+                        "featured-collection__tabs__collection-3__card__info__price": {
+                          "type": "product-price"
+                        },
+                        "featured-collection__tabs__collection-3__card__info__description": {
+                          "type": "product-card/_description"
+                        },
+                        "featured-collection__tabs__collection-3__card__info__buy-button": {
+                          "type": "product-buy-button"
+                        }
+                      },
+                      "block_order": [
+                        "featured-collection__tabs__collection-3__card__info__title",
+                        "featured-collection__tabs__collection-3__card__info__price",
+                        "featured-collection__tabs__collection-3__card__info__description",
+                        "featured-collection__tabs__collection-3__card__info__buy-button"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "featured-collection__tabs__collection-3__card__image",
+                    "featured-collection__tabs__collection-3__card__info"
+                  ]
+                }
+              },
+              "block_order": ["featured-collection__tabs__collection-3__card"]
+            }
+          },
+          "block_order": [
+            "featured-collection__tabs__collection-1",
+            "featured-collection__tabs__collection-2",
+            "featured-collection__tabs__collection-3"
+          ]
+        }
+      },
+      "block_order": ["featured-collection__heading", "featured-collection__tabs"]
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-list__heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Shop by category"
+          }
+        },
+        "collection-list__list": {
+          "type": "$list",
+          "blocks": {
+            "collection-list__list__card-1": {
+              "type": "collection/card",
+              "blocks": {
+                "collection-list__list__card-1__image": {
+                  "type": "collection/_image",
+                  "blocks": {
+                    "collection-list__list__card-1__image__title": {
+                      "type": "collection/_title"
+                    }
+                  },
+                  "block_order": ["collection-list__list__card-1__image__title"]
+                },
+                "collection-list__list__card-1__title": {
+                  "type": "collection/_title"
+                }
+              },
+              "block_order": ["collection-list__list__card-1__image", "collection-list__list__card-1__title"]
+            },
+            "collection-list__list__card-2": {
+              "type": "collection/card",
+              "blocks": {
+                "collection-list__list__card-2__image": {
+                  "type": "collection/_image",
+                  "blocks": {
+                    "collection-list__list__card-2__image__title": {
+                      "type": "collection/_title"
+                    }
+                  },
+                  "block_order": ["collection-list__list__card-2__image__title"]
+                },
+                "collection-list__list__card-2__title": {
+                  "type": "collection/_title"
+                }
+              },
+              "block_order": ["collection-list__list__card-2__image", "collection-list__list__card-2__title"]
+            },
+            "collection-list__list__card-3": {
+              "type": "collection/card",
+              "blocks": {
+                "collection-list__list__card-3__image": {
+                  "type": "collection/_image",
+                  "blocks": {
+                    "collection-list__list__card-3__image__title": {
+                      "type": "collection/_title"
+                    }
+                  },
+                  "block_order": ["collection-list__list__card-3__image__title"]
+                },
+                "collection-list__list__card-3__title": {
+                  "type": "collection/_title"
+                }
+              },
+              "block_order": ["collection-list__list__card-3__image", "collection-list__list__card-3__title"]
+            },
+            "collection-list__list__card-4": {
+              "type": "collection/card",
+              "blocks": {
+                "collection-list__list__card-4__image": {
+                  "type": "collection/_image",
+                  "blocks": {
+                    "collection-list__list__card-4__image__title": {
+                      "type": "collection/_title"
+                    }
+                  },
+                  "block_order": ["collection-list__list__card-4__image__title"]
+                },
+                "collection-list__list__card-4__title": {
+                  "type": "collection/_title"
+                }
+              },
+              "block_order": ["collection-list__list__card-4__image", "collection-list__list__card-4__title"]
+            },
+            "collection-list__list__card-5": {
+              "type": "collection/card",
+              "blocks": {
+                "collection-list__list__card-5__image": {
+                  "type": "collection/_image",
+                  "blocks": {
+                    "collection-list__list__card-5__image__title": {
+                      "type": "collection/_title"
+                    }
+                  },
+                  "block_order": ["collection-list__list__card-5__image__title"]
+                },
+                "collection-list__list__card-5__title": {
+                  "type": "collection/_title"
+                }
+              },
+              "block_order": ["collection-list__list__card-5__image", "collection-list__list__card-5__title"]
+            },
+            "collection-list__list__card-6": {
+              "type": "collection/card",
+              "blocks": {
+                "collection-list__list__card-6__image": {
+                  "type": "collection/_image",
+                  "blocks": {
+                    "collection-list__list__card-6__image__title": {
+                      "type": "collection/_title"
+                    }
+                  },
+                  "block_order": ["collection-list__list__card-6__image__title"]
+                },
+                "collection-list__list__card-6__title": {
+                  "type": "collection/_title"
+                }
+              },
+              "block_order": ["collection-list__list__card-6__image", "collection-list__list__card-6__title"]
+            }
+          },
+          "block_order": [
+            "collection-list__list__card-1",
+            "collection-list__list__card-2",
+            "collection-list__list__card-3",
+            "collection-list__list__card-4",
+            "collection-list__list__card-5",
+            "collection-list__list__card-6"
+          ]
+        },
+        "collection-list__button": {
+          "type": "button",
+          "settings": {
+            "text": "View more"
+          }
+        }
+      },
+      "block_order": ["collection-list__heading", "collection-list__list", "collection-list__button"]
+    },
+    "blog": {
+      "type": "blog",
+      "blocks": {
+        "blog__heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Blogs"
+          }
+        },
+        "blog__articles": {
+          "type": "$articles",
+          "blocks": {
+            "blog__articles__card": {
+              "type": "article/card",
+              "blocks": {
+                "blog__articles__card__cover": {
+                  "type": "article/_cover"
+                },
+                "blog__articles__card__info": {
+                  "type": "article/_info",
+                  "blocks": {
+                    "blog__articles__card__info__title": {
+                      "type": "article/_title"
+                    },
+                    "blog__articles__card__info__date-author": {
+                      "type": "article/_date-author"
+                    },
+                    "blog__articles__card__info__excerpt": {
+                      "type": "article/_excerpt"
+                    },
+                    "blog__articles__card__info__view-more-button": {
+                      "type": "article/_view-more-button"
+                    }
+                  },
+                  "block_order": [
+                    "blog__articles__card__info__title",
+                    "blog__articles__card__info__date-author",
+                    "blog__articles__card__info__excerpt",
+                    "blog__articles__card__info__view-more-button"
+                  ]
+                }
+              },
+              "block_order": ["blog__articles__card__cover", "blog__articles__card__info"]
+            }
+          },
+          "block_order": ["blog__articles__card"]
+        },
+        "blog__button": {
+          "type": "button",
+          "settings": {
+            "text": "View all",
+            "typography": "body2"
+          }
+        }
+      },
+      "block_order": ["blog__heading", "blog__articles", "blog__button"]
+    },
+    "rich-text": {
+      "disabled": false,
+      "type": "rich-text",
+      "settings": {},
+      "blocks": {
+        "rich-text__heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Rich text",
+            "text_align": "center"
+          }
+        },
+        "rich-text": {
+          "type": "rich-text",
+          "settings": {
+            "typography": "body3"
+          }
+        },
+        "rich-text__button-group": {
+          "type": "button-group",
+          "settings": {},
+          "blocks": {
+            "rich-text__button-group__button1": {
+              "type": "button",
+              "settings": {
+                "style": "primary",
+                "text": "Shop this",
+                "typography": "body2"
+              }
+            },
+            "rich-text__button-group__button2": {
+              "type": "button",
+              "settings": {
+                "style": "secondary",
+                "text": "Shop all",
+                "typography": "body2"
+              }
+            }
+          },
+          "block_order": ["rich-text__button-group__button1", "rich-text__button-group__button2"]
+        }
+      },
+      "block_order": ["rich-text__heading", "rich-text", "rich-text__button-group"]
+    },
+    "video": {
+      "disabled": false,
+      "type": "video",
+      "settings": {},
+      "blocks": {
+        "video__heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Video"
+          }
+        },
+        "video__video": {
+          "type": "video/video",
+          "settings": {}
+        },
+        "video__description": {
+          "type": "description",
+          "settings": {
+            "content": "A short description of the video.",
+            "typography": "body3"
+          }
+        }
+      },
+      "block_order": ["video__heading", "video__video", "video__description"],
+      "custom_css": []
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "settings": {},
+      "blocks": {
+        "container": {
+          "type": "$container",
+          "blocks": {
+            "image-banner__subheading": {
+              "type": "subheading",
+              "settings": {
+                "text": "Subtitle",
+                "typography": "body3"
+              }
+            },
+            "image-banner__heading": {
+              "type": "heading",
+              "settings": {
+                "text": "Two Line\nTitle Slide",
+                "typography": "title1",
+                "spacing": {
+                  "padding-block-start": "0",
+                  "padding-block-end": "0"
+                }
+              }
+            },
+            "image-banner__description": {
+              "type": "description",
+              "settings": {
+                "content": "And optional subtext",
+                "typography": "body1"
+              }
+            },
+            "image-banner__button": {
+              "type": "button-group",
+              "blocks": {
+                "button-1": {
+                  "type": "button",
+                  "settings": {
+                    "text": "Shop this",
+                    "link": "",
+                    "style": "primary"
+                  }
+                },
+                "button-2": {
+                  "type": "button",
+                  "settings": {
+                    "text": "Shop all",
+                    "link": "",
+                    "style": "primary"
+                  }
+                }
+              },
+              "block_order": ["button-1", "button-2"]
+            }
+          },
+          "block_order": [
+            "image-banner__subheading",
+            "image-banner__heading",
+            "image-banner__description",
+            "image-banner__button"
+          ]
+        }
+      },
+      "block_order": ["container"]
+    },
+    "sign-up-and-save": {
+      "type": "sign-up-and-save",
+      "settings": {},
+      "blocks": {
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Sign up and save"
+          }
+        },
+        "block-2": {
+          "type": "rich-text",
+          "settings": {
+            "content": "Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.",
+            "typography": "body3"
+          }
+        },
+        "block-3": {
+          "type": "email-subscription",
+          "settings": {
+            "size": {
+              "width": "371px",
+              "height": "auto"
+            },
+            "@media (--mobile)": {
+              "size": {
+                "width": "100%",
+                "height": "auto"
+              }
+            }
+          }
+        }
+      },
+      "block_order": ["block-1", "block-2", "block-3"]
+    },
+    "featured-collection-list": {
+      "type": "featured-collection-list",
+      "blocks": {
+        "featured-collection-list__heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Collection List"
+          }
+        },
+        "featured-collection-list__list": {
+          "type": "$list",
+          "blocks": {
+            "featured-collection-list__list__collection-1": {
+              "type": "$collection"
+            },
+            "featured-collection-list__list__collection-2": {
+              "type": "$collection"
+            },
+            "featured-collection-list__list__collection-3": {
+              "type": "$collection"
+            },
+            "featured-collection-list__list__collection-4": {
+              "type": "$collection"
+            }
+          },
+          "block_order": [
+            "featured-collection-list__list__collection-1",
+            "featured-collection-list__list__collection-2",
+            "featured-collection-list__list__collection-3",
+            "featured-collection-list__list__collection-4"
+          ]
+        }
+      },
+      "block_order": ["featured-collection-list__heading", "featured-collection-list__list"]
+    },
+    "featured-slideshow": {
+      "type": "featured-slideshow",
+      "blocks": {
+        "featured-slideshow__container": {
+          "type": "$container",
+          "blocks": {
+            "featured-slideshow__container__image-group": {
+              "type": "$image-group",
+              "blocks": {
+                "featured-slideshow__container__image-group__text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "Subtitle",
+                    "typography": "body3",
+                    "size": {
+                      "width": "auto"
+                    },
+                    "spacing": {
+                      "padding-top": "0px",
+                      "padding-right": "0px",
+                      "padding-bottom": "0px",
+                      "padding-left": "0px"
+                    }
+                  }
+                },
+                "featured-slideshow__container__image-group__heading": {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Two Line\nTitle Slide",
+                    "spacing": {
+                      "padding-top": "0px",
+                      "padding-right": "0px",
+                      "padding-bottom": "0px",
+                      "padding-left": "0px"
+                    }
+                  }
+                },
+                "featured-slideshow__container__image-group__button": {
+                  "type": "button",
+                  "settings": {
+                    "text": "Shop Now",
+                    "style": "primary",
+                    "typography": "body2"
+                  }
+                }
+              },
+              "block_order": [
+                "featured-slideshow__container__image-group__text",
+                "featured-slideshow__container__image-group__heading",
+                "featured-slideshow__container__image-group__button"
+              ]
+            },
+            "featured-slideshow__container__text-group": {
+              "type": "$text-group",
+              "blocks": {
+                "featured-slideshow__container__text-group__text-1": {
+                  "type": "text",
+                  "settings": {
+                    "text": "Subtitle",
+                    "typography": "body3",
+                    "spacing": {
+                      "padding-top": "0px",
+                      "padding-right": "0px",
+                      "padding-bottom": "0px",
+                      "padding-left": "0px"
+                    },
+                    "size": {
+                      "width": "auto"
+                    }
+                  }
+                },
+                "featured-slideshow__container__text-group__heading": {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Two Line\nTitle Slide",
+                    "spacing": {
+                      "padding-top": "0px",
+                      "padding-right": "0px",
+                      "padding-bottom": "0px",
+                      "padding-left": "0px"
+                    }
+                  }
+                },
+                "featured-slideshow__container__text-group__text-2": {
+                  "type": "text",
+                  "settings": {
+                    "text": "And optional subtext",
+                    "typography": "body3",
+                    "spacing": {
+                      "padding-top": "0px",
+                      "padding-right": "0px",
+                      "padding-bottom": "0px",
+                      "padding-left": "0px"
+                    },
+                    "size": {
+                      "width": "auto"
+                    }
+                  }
+                },
+                "featured-slideshow__container__text-group__line": {
+                  "type": "$line"
+                },
+                "featured-slideshow__container__text-group__button": {
+                  "type": "button",
+                  "settings": {
+                    "text": "Shop Now",
+                    "style": "link",
+                    "typography": "body2"
+                  }
+                }
+              },
+              "block_order": [
+                "featured-slideshow__container__text-group__text-1",
+                "featured-slideshow__container__text-group__heading",
+                "featured-slideshow__container__text-group__text-2",
+                "featured-slideshow__container__text-group__line",
+                "featured-slideshow__container__text-group__button"
+              ]
+            }
+          },
+          "block_order": ["featured-slideshow__container__image-group", "featured-slideshow__container__text-group"]
+        }
+      },
+      "settings": {},
+      "block_order": ["featured-slideshow__container"]
+    },
+    "image-floating": {
+      "type": "image-floating",
+      "settings": {},
+      "blocks": {
+        "image-floating__block_text": {
+          "type": "$text-group",
+          "blocks": {
+            "image-floating__heading": {
+              "type": "$heading"
+            },
+            "image-floating__text": {
+              "type": "text",
+              "settings": {
+                "text_align": "left",
+                "typography": "body3"
+              }
+            },
+            "image-floating__icon": {
+              "type": "$icon"
+            }
+          },
+          "block_order": ["image-floating__heading", "image-floating__text", "image-floating__icon"]
+        },
+        "image-floating__block-image": {
+          "type": "$image-group",
+          "blocks": {
+            "image-floating__image-1": {
+              "type": "$image"
+            },
+            "image-floating__image-2": {
+              "type": "$image"
+            },
+            "image-floating__image-3": {
+              "type": "$image"
+            }
+          },
+          "block_order": ["image-floating__image-1", "image-floating__image-2", "image-floating__image-3"]
+        }
+      },
+      "block_order": ["image-floating__block_text", "image-floating__block-image"]
+    },
+    "ingredient-display": {
+      "type": "ingredient-display",
+      "settings": {},
+      "blocks": {
+        "ingredient-display__heading": {
+          "type": "heading",
+          "settings": {
+            "text": "INGREDIENTS"
+          }
+        },
+        "ingredient-display__description": {
+          "type": "text",
+          "settings": {
+            "text": "A water-attracting synthetic compound. It helps boost hydration levels without disrupting the skin barrier.",
+            "spacing": {
+              "padding-top": "0px",
+              "@media (--mobile)": {
+                "padding-top": "0px"
+              }
+            }
+          }
+        },
+        "ingredient-display__image-text-area": {
+          "type": "$image-text-area",
+          "settings": {
+            "layout": {
+              "flex-direction": "column"
+            }
+          },
+          "blocks": {
+            "ingredient-display__image": {
+              "type": "image/image",
+              "settings": {
+                "size": {
+                  "height": "100%"
+                }
+              }
+            },
+            "ingredient-display__card-group1": {
+              "type": "$image-text-card-group",
+              "settings": {
+                "layout": {
+                  "flex-direction": "row",
+                  "@media (--mobile)": {
+                    "flex-direction": "column"
+                  }
+                }
+              },
+              "blocks": {
+                "ingredient-display__image-text-card1": {
+                  "type": "$image-text-card",
+                  "blocks": {
+                    "ingredient-display__card-image1": {
+                      "type": "image/image"
+                    },
+                    "ingredient-display__card-text-group1": {
+                      "type": "$image-text-card-text-group",
+                      "blocks": {
+                        "ingredient-display__card-heading1": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<strong style='font-size: 22px'>Jojoba Oil</strong>",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-desc1": {
+                          "type": "text",
+                          "settings": {
+                            "text": "A natural oil extracted from the seeds of the jojoba plant, rich in vitamins and fatty .",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-button1": {
+                          "type": "button",
+                          "settings": {
+                            "style": "link",
+                            "text": "Learn more",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-right": "0px",
+                              "padding-bottom": "0px",
+                              "padding-left": "0px"
+                            }
+                          }
+                        }
+                      },
+                      "block_order": [
+                        "ingredient-display__card-heading1",
+                        "ingredient-display__card-desc1",
+                        "ingredient-display__card-button1"
+                      ]
+                    }
+                  },
+                  "block_order": ["ingredient-display__card-image1", "ingredient-display__card-text-group1"]
+                },
+                "ingredient-display__image-text-card2": {
+                  "type": "$image-text-card",
+                  "blocks": {
+                    "ingredient-display__card-image2": {
+                      "type": "image/image"
+                    },
+                    "ingredient-display__card-text-group2": {
+                      "type": "$image-text-card-text-group",
+                      "blocks": {
+                        "ingredient-display__card-heading2": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<strong style='font-size: 22px'>Jojoba Oil</strong>",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-desc2": {
+                          "type": "text",
+                          "settings": {
+                            "text": "A natural oil extracted from the seeds of the jojoba plant, rich in vitamins and fatty .",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-button2": {
+                          "type": "button",
+                          "settings": {
+                            "style": "link",
+                            "text": "Learn more",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-right": "0px",
+                              "padding-bottom": "0px",
+                              "padding-left": "0px"
+                            }
+                          }
+                        }
+                      },
+                      "block_order": [
+                        "ingredient-display__card-heading2",
+                        "ingredient-display__card-desc2",
+                        "ingredient-display__card-button2"
+                      ]
+                    }
+                  },
+                  "block_order": ["ingredient-display__card-image2", "ingredient-display__card-text-group2"]
+                },
+                "ingredient-display__image-text-card3": {
+                  "type": "$image-text-card",
+                  "blocks": {
+                    "ingredient-display__card-image3": {
+                      "type": "image/image"
+                    },
+                    "ingredient-display__card-text-group3": {
+                      "type": "$image-text-card-text-group",
+                      "blocks": {
+                        "ingredient-display__card-heading3": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<strong style='font-size: 22px'>Jojoba Oil</strong>",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-desc3": {
+                          "type": "text",
+                          "settings": {
+                            "text": "A natural oil extracted from the seeds of the jojoba plant, rich in vitamins and fatty .",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-button3": {
+                          "type": "button",
+                          "settings": {
+                            "style": "link",
+                            "text": "Learn more",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-right": "0px",
+                              "padding-bottom": "0px",
+                              "padding-left": "0px"
+                            }
+                          }
+                        }
+                      },
+                      "block_order": [
+                        "ingredient-display__card-heading3",
+                        "ingredient-display__card-desc3",
+                        "ingredient-display__card-button3"
+                      ]
+                    }
+                  },
+                  "block_order": ["ingredient-display__card-image3", "ingredient-display__card-text-group3"]
+                }
+              },
+              "block_order": [
+                "ingredient-display__image-text-card1",
+                "ingredient-display__image-text-card2",
+                "ingredient-display__image-text-card3"
+              ]
+            },
+            "ingredient-display__card-group2": {
+              "type": "$image-text-card-group",
+              "settings": {
+                "layout": {
+                  "flex-direction": "row",
+                  "@media (--mobile)": {
+                    "flex-direction": "column"
+                  }
+                }
+              },
+              "blocks": {
+                "ingredient-display__image-text-card4": {
+                  "type": "$image-text-card",
+                  "blocks": {
+                    "ingredient-display__card-image4": {
+                      "type": "image/image"
+                    },
+                    "ingredient-display__card-text-group4": {
+                      "type": "$image-text-card-text-group",
+                      "blocks": {
+                        "ingredient-display__card-heading4": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<strong style='font-size: 22px'>Jojoba Oil</strong>",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-desc4": {
+                          "type": "text",
+                          "settings": {
+                            "text": "A natural oil extracted from the seeds of the jojoba plant, rich in vitamins and fatty .",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-button4": {
+                          "type": "button",
+                          "settings": {
+                            "style": "link",
+                            "text": "Learn more",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-right": "0px",
+                              "padding-bottom": "0px",
+                              "padding-left": "0px"
+                            }
+                          }
+                        }
+                      },
+                      "block_order": [
+                        "ingredient-display__card-heading4",
+                        "ingredient-display__card-desc4",
+                        "ingredient-display__card-button4"
+                      ]
+                    }
+                  },
+                  "block_order": ["ingredient-display__card-image4", "ingredient-display__card-text-group4"]
+                },
+                "ingredient-display__image-text-card5": {
+                  "type": "$image-text-card",
+                  "blocks": {
+                    "ingredient-display__card-image5": {
+                      "type": "image/image"
+                    },
+                    "ingredient-display__card-text-group5": {
+                      "type": "$image-text-card-text-group",
+                      "blocks": {
+                        "ingredient-display__card-heading5": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<strong style='font-size: 22px'>Jojoba Oil</strong>",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-desc5": {
+                          "type": "text",
+                          "settings": {
+                            "text": "A natural oil extracted from the seeds of the jojoba plant, rich in vitamins and fatty .",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-button5": {
+                          "type": "button",
+                          "settings": {
+                            "style": "link",
+                            "text": "Learn more",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-right": "0px",
+                              "padding-bottom": "0px",
+                              "padding-left": "0px"
+                            }
+                          }
+                        }
+                      },
+                      "block_order": [
+                        "ingredient-display__card-heading5",
+                        "ingredient-display__card-desc5",
+                        "ingredient-display__card-button5"
+                      ]
+                    }
+                  },
+                  "block_order": ["ingredient-display__card-image5", "ingredient-display__card-text-group5"]
+                },
+                "ingredient-display__image-text-card6": {
+                  "type": "$image-text-card",
+                  "blocks": {
+                    "ingredient-display__card-image6": {
+                      "type": "image/image"
+                    },
+                    "ingredient-display__card-text-group6": {
+                      "type": "$image-text-card-text-group",
+                      "blocks": {
+                        "ingredient-display__card-heading6": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<strong style='font-size: 22px'>Jojoba Oil</strong>",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-desc6": {
+                          "type": "text",
+                          "settings": {
+                            "text": "A natural oil extracted from the seeds of the jojoba plant, rich in vitamins and fatty .",
+                            "text_align": "left",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-bottom": "0px",
+                              "@media (--mobile)": {
+                                "padding-top": "0px",
+                                "padding-bottom": "0px"
+                              }
+                            }
+                          }
+                        },
+                        "ingredient-display__card-button6": {
+                          "type": "button",
+                          "settings": {
+                            "style": "link",
+                            "text": "Learn more",
+                            "spacing": {
+                              "padding-top": "0px",
+                              "padding-right": "0px",
+                              "padding-bottom": "0px",
+                              "padding-left": "0px"
+                            }
+                          }
+                        }
+                      },
+                      "block_order": [
+                        "ingredient-display__card-heading6",
+                        "ingredient-display__card-desc6",
+                        "ingredient-display__card-button6"
+                      ]
+                    }
+                  },
+                  "block_order": ["ingredient-display__card-image6", "ingredient-display__card-text-group6"]
+                }
+              },
+              "block_order": [
+                "ingredient-display__image-text-card4",
+                "ingredient-display__image-text-card5",
+                "ingredient-display__image-text-card6"
+              ]
+            }
+          },
+          "block_order": [
+            "ingredient-display__image",
+            "ingredient-display__card-group1",
+            "ingredient-display__card-group2"
+          ]
+        }
+      },
+      "block_order": [
+        "ingredient-display__heading",
+        "ingredient-display__description",
+        "ingredient-display__image-text-area"
+      ]
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich-text",
+    "collection-list",
+    "image-banner",
+    "featured-collection",
+    "blog",
+    "video",
+    "image-with-text",
+    "text-columns-with-image",
+    "sign-up-and-save",
+    "featured-slideshow",
+    "image-floating",
+    "ingredient-display"
+  ]
+}
