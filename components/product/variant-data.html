@@ -3,5 +3,7 @@
   "options": {{{ props.variant.options | json() }}},
   "price": "{{ props.variant.price }}",
   "available": {{ props.variant.available }},
-  "featured_media_id": "{{ props.variant.featured_media.id }}"
+  "featured_media_id": "{{ props.variant.featured_media.id }}",
+  "items_value": "{{ props.items_value }}",
+  "variant": {{{ props.variant | json() }}}
 }

@@ -15,11 +15,14 @@
   <script name="variant-data" type="application/json">
     [
       {{#for variant in product | get_variants() ~}}
-        {{#component "product/variant-data" variant=variant /}}{{#if !forloop.last}},{{/if}}
+        {{#var items_mf = variant | get_metafield("items", "items") /}}
+        {{#component "product/variant-data" variant=variant items_value=items_mf.value /}}{{#if !forloop.last}},{{/if}}
       {{/for}}
     ]
   </script>
 {{/capture}}
+
+{{#var items_mf = current_variant | get_metafield("items", "items") /}}
 
 {{#switch picker_type }}
   {{#case "select" /}}
@@ -38,7 +41,6 @@
         {{#if current_variant }}
           {{#set current_selected_option = current_variant.options[forloop.index0] /}}
         {{/if}}
-
         <div
           class="
             product-detail__row
@@ -103,6 +105,10 @@
         </div>
       {{/for}}
 
+      <div class="variant-picker__metafields body6" data-variant-metafields data-variant-metafields-filter="items"></div>
+      {{#if items_mf.value }}
+        <div class="variant-picker__items body3">Items: {{ items_mf.value }}</div>
+      {{/if}}
       {{{ variant_data }}}
     </theme-variant-select-picker>
   {{#case "flatten" /}}
@@ -186,6 +192,7 @@
                           lazy=true
                           fetchpriority="auto"
                         /}}
+
                       </span>
                       <theme-popover-content class="body6 hidden-mobile">{{ item.value }}</theme-popover-content>
                     </theme-popover>
@@ -202,6 +209,10 @@
         </fieldset>
       {{/for}}
 
+      <div class="variant-picker__metafields body6" data-variant-metafields data-variant-metafields-filter="items"></div>
+      {{#if items_mf.value }}
+        <div class="variant-picker__items body3">Items: {{ items_mf.value }}</div>
+      {{/if}}
       {{{ variant_data }}}
     </theme-variant-radio-picker>
 {{/switch}}

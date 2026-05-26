@@ -1188,6 +1188,13 @@
       "error_message_6": "服务异常",
       "error_message_7": "请设置 5-40 位密码，支持输入大小写字母及数字"
     },
+    "blocks": {
+      "shoe_promo": {
+        "item_label": "商品 {{ item_num }}",
+        "color_label": "颜色",
+        "size_label": "尺码"
+      }
+    },
     "editorSwitchCountryTip": "编辑器内暂不支持切换国家",
     "shopby": {
       "button": {

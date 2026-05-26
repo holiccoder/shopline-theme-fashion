@@ -1,0 +1,66 @@
+{{#component "stylesheet" src="./shoe-promo.css" | asset_url() /}}
+{{#component "script" src="./shoe-promo.js" | asset_url() /}}
+
+{{#var product = block.settings.product | default(props.product) /}}
+
+{{#capture variant_data }}
+  <script name="variant-data" type="application/json">
+    [
+      {{#for variant in product | get_variants() ~}}
+        {{#var items_mf = variant | get_metafield("items", "items") /}}
+        {{#var rec_mf = variant | get_metafield("items", "is_recommended") /}}
+        {
+          "id": "{{ variant.id }}",
+          "options": {{{ variant.options | json() }}},
+          "price": "{{ variant.price }}",
+          "available": {{ variant.available }},
+          "compare_at_price": "{{ variant.compare_at_price }}",
+          "items_value": "{{ items_mf.value }}",
+          "rec_value": "{{ rec_mf.value }}",
+          "is_recommended": {{#if rec_mf.value && rec_mf.value != "false" && rec_mf.value != "0"}}true{{#else/}}false{{/if}}
+        }{{#if !forloop.last}},{{/if}}
+      {{/for}}
+    ]
+  </script>
+{{/capture}}
+
+<theme-shoe-promo
+  {{{ block.shopline_attributes }}}
+>
+  {{{ variant_data }}}
+  <script name="option-data" type="application/json">
+    [
+      {{#for option in product.options_with_values ~}}
+        {
+          "name": "{{ option.name }}",
+          "values": [
+            {{#for item in option.values_images ~}}
+              "{{ item.value }}"{{#if !forloop.last}},{{/if}}
+            {{/for}}
+          ]
+        }{{#if !forloop.last}},{{/if}}
+      {{/for}}
+    ]
+  </script>
+</theme-shoe-promo>
+
+{{#schema}}
+{
+  "name": "t:blocks.shoe_promo.name",
+  "tag": "",
+  "icon": "productSku",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "t:blocks.shoe_promo.settings.product.label",
+      "default": "${closest.product}"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:blocks.shoe_promo.presets.presets_0.name"
+    }
+  ]
+}
+{{/schema}}

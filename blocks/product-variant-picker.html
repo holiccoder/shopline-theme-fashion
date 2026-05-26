@@ -109,6 +109,7 @@
                 {{/if}}
               {{/if}}
             </div>
+            <div class="variant-picker__metafields body6" data-variant-metafields data-variant-metafields-filter="items"></div>
             {{#if is_color_swatch_slider && color_swatch_count > 0 }}
               <button
                 name="previous"
@@ -188,14 +189,21 @@
               </label>
             {{/for}}
           </div>
+          <div class="variant-picker__metafields body6" data-variant-metafields data-variant-metafields-filter="items"></div>
         </fieldset>
       {{/if}}
     {{/for}}
 
+    {{#var items_mf = current_variant | get_metafield("items", "items") /}}
+    {{#if items_mf.value }}
+      <div class="variant-picker__items body3">Items: {{ items_mf.value }}</div>
+    {{/if}}
+
     <script name="variant-data" type="application/json">
       [
         {{#for variant in product | get_variants() ~}}
-          {{#component "product/variant-data" variant=variant /}}{{#if !forloop.last}},{{/if}}
+          {{#var items_mf = variant | get_metafield("items", "items") /}}
+          {{#component "product/variant-data" variant=variant items_value=items_mf.value /}}{{#if !forloop.last}},{{/if}}
         {{/for}}
       ]
     </script>

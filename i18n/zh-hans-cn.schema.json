@@ -14229,6 +14229,19 @@
           "info": "展示在浏览器标签页处，尺寸：32 x 32px"
         }
       }
+    },
+    "shoe_promo": {
+      "name": "鞋子促销",
+      "settings": {
+        "product": {
+          "label": "选择商品"
+        }
+      },
+      "presets": {
+        "presets_0": {
+          "name": "鞋子促销"
+        }
+      }
     }
   }
 }

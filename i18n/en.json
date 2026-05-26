@@ -1188,6 +1188,13 @@
       "error_message_6": "The system is busy, please try again later",
       "error_message_7": "Password must be 5-40 characters consisting of numbers, uppercase and lowercase letters"
     },
+    "blocks": {
+      "shoe_promo": {
+        "item_label": "Item {{ item_num }}",
+        "color_label": "Color",
+        "size_label": "Size"
+      }
+    },
     "editorSwitchCountryTip": "Unable to change the country in editor",
     "shopby": {
       "button": {

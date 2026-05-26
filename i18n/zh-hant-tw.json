@@ -1188,6 +1188,13 @@
       "error_message_6": "服務異常",
       "error_message_7": "請設置5-40位密碼，支持輸入大小寫字母及數字"
     },
+    "blocks": {
+      "shoe_promo": {
+        "item_label": "商品 {{ item_num }}",
+        "color_label": "顏色",
+        "size_label": "尺碼"
+      }
+    },
     "editorSwitchCountryTip": "編輯器內暫不支持切換國家",
     "shopby": {
       "button": {

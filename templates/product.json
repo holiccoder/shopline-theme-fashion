@@ -35,6 +35,10 @@
                   "type": "product/_detail-price",
                   "settings": {}
                 },
+                "shoe-promo": {
+                  "type": "shoe-promo",
+                  "settings": {}
+                },
                 "variant-picker": {
                   "type": "product/_detail-variant-picker",
                   "settings": {}
@@ -140,6 +144,7 @@
               "block_order": [
                 "title",
                 "price",
+                "shoe-promo",
                 "variant-picker",
                 "quantity-selector",
                 "buy-button-group",

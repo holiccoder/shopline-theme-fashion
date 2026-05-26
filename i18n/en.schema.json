@@ -14229,6 +14229,19 @@
           "info": "Displayed in browser tab, size: 32 x 32px"
         }
       }
+    },
+    "shoe_promo": {
+      "name": "Shoe Promo",
+      "settings": {
+        "product": {
+          "label": "Choose product"
+        }
+      },
+      "presets": {
+        "presets_0": {
+          "name": "Shoe Promo"
+        }
+      }
     }
   }
 }
